@@ -1,0 +1,8 @@
+ ws_GSTR3B.cell(row = rowgstr3b, column =1).value = (a['gstin'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =2).value = (a['ret_period'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =3).value = "ITC Records"  
+ ws_GSTR3B.cell(row = rowgstr3b, column =4).value = (a['itc_elg']['itc_avl'][ka]['ty'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =6).value = (a['itc_elg']['itc_avl'][ka]['iamt'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =7).value = (a['itc_elg']['itc_avl'][ka]['camt'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =8).value = (a['itc_elg']['itc_avl'][ka]['samt'])
+ ws_GSTR3B.cell(row = rowgstr3b, column =9).value = (a['itc_elg']['itc_avl'][ka]['csamt'])

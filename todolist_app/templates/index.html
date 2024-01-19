@@ -1,0 +1,494 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="google-site-verification" content="UlUpwIWdes4y601NcdtvZR1OH4WlbVYP8VFEZtpHA3U" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    --> 
+    <title>RAMAJAYAM AND ASSOCIATES</title>
+    <style>
+      .button-19 {
+        appearance: button;
+        background-color: #1ea547;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: din-round,sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 13px 16px;
+        text-align: center;
+        position: absolute;
+        top: 18%;
+        left: 68%;
+      }
+      .button-19:after {
+  background-clip: padding-box;
+  background-color: #0572a5;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+      .main
+        {
+          border: 2px;
+          text-align: center;
+          background-color:transparent;
+          border-radius: 25px;
+        }
+      .container
+        {
+          position:relative;
+          padding: 15px 32px;
+        }
+      button
+        {
+          padding: 15px 35px;
+          font-size: 15px;
+          height: 55px;
+          width: 400px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          background-color:#21cf27;
+          border: none;
+          border-radius: 50px;
+          box-shadow: 12px 12px rgb(129, 240, 144);
+        }
+      button:hover {background-color: rgb(8, 109, 8)}
+      button:active
+        {
+          background-color: #31da36;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+.bg
+                 {
+                 background-size: 1375px 655px;
+                 background-position: top;
+                 background-attachment: fixed;
+                 background-repeat: no-repeat;
+                 }
+      body 
+        {
+          margin:0;
+          padding:0;
+          background:#ccc;
+          font-family: 'Roboto Condensed', sans-serif;
+        }
+        /*  .file-1
+        {
+          top:50%;
+          left:50%;
+          transform:translate(-50%,-175%);
+          position: absolute;
+        }
+        .upload-box
+        {
+          font-size: 15px;
+          background-color: rgb(255, 255, 255);
+          border-radius: 50px;
+          box-shadow: 5px 5px 10px black;
+          width: 350px;
+          height: 60px;
+          outline: none;
+        }
+        ::-webkit-file-upload-button{
+          color:rgb(255, 255, 255);
+          background:#2237ee;
+          height: 60px;
+          width: 200px;
+          padding:20px;
+          border:none;
+          border-radius: 30px;
+          box-shadow:1px 0 1px 1px #6b4559;
+          outline:none;
+        }
+        ::-webkit-file-upload-button:hover{
+          background:#2237ee;
+        }*/
+
+        @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+}
+
+       
+        .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+        .pop-outin {
+          animation: 1s anim-popoutin ease infinite;
+        }
+      @keyframes anim-popoutin {
+        0% {
+          color: black;
+          transform: scale(0);
+          opacity: 0;
+          text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        }
+      25% {
+        color: red;
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+      }
+      50% {
+        color: black;
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+      }
+      100% {
+        /* animate nothing to add pause at the end of animation */
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+      }
+    }
+    .fromtop {
+      animation: 2s anim-fromtop linear infinite;
+    }
+    @keyframes anim-fromtop {
+      0% { opacity: 0; transform: translateY(-100%);}
+      25% { opacity: 1; transform: translateY(0%);}
+      50% {
+      }
+      100% {
+      }
+      
+</style>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+  
+    <body class="bg" style="background-image: url('{% static "upload/background.jpg"%}')";> 
+      <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">RAMAJAYAM AND ASSOCIATES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <i class="fa fa-home"></i>
+              Home
+              <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa fa-envelope-o">
+                <span class="badge badge-danger"></span>
+              </i>
+              Contact Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">
+              <i class="fa fa-envelope-o">
+                <span class="badge badge-warning"></span>
+              </i>
+              About Us
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-envelope-o">
+                <span class="badge badge-primary">3</span>
+              </i>
+              Link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://app.ramajayam.in/accounts/login/?next=/todolist/">Todo-App</a>
+              <a class="dropdown-item" href="https://www.ramajayam.in/">Our Site</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa fa-bell">
+                <span class="badge badge-info"></span>
+              </i>
+              Our Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa fa-globe">
+                <span class="badge badge-success"></span>
+              </i>
+              Admin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <marquee style = "Color: tomato; font-family:'Times New Roman', Times, serif; font-size:25px">UPLOAD YOUR GSTR1 ZIPPED FILES HERE TO CONVERT INTO EXCEL FORMAT<chaged class=" "></chaged></marquee><br><br><br><br><br><br><br>
+      <a href="https://github.com/ramajayam-CA/Tally-Connector">
+      <button class="button-19" role="button" value="submit" >Click here to download tally Connecter</button>
+      </a>
+      <div class="main">
+          <div class="container">
+            {% if messages %}
+              {% for message in messages %}
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                  {{ message }}
+                    <button type="button" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+              {% endfor %}
+            {% endif %}           
+            
+ <form method="POST" class="post-form" enctype="multipart/form-data">
+  {% csrf_token %}
+    
+  <!--<div class="file-1">
+      <input type="file" value="my button" class="upload-box" name="file" multiple="" required="" id="id_file">
+    </div> -->
+
+      <div id="file_count"></div>
+          <div class="upload-btn-wrapper" >
+        <button class="btn">Upload a multiple file</button>
+        <input type="file" name="file" multiple="" required="" id="id_file"/>
+      </div>
+
+    <br><br>
+    <button type="submit" class="save btn2 btn-default" name="gst1">Click Here to Convert JSON 1&3B to Excel File</button>&ensp;&ensp;
+    <button type="submit" class="save btn2 btn-default" name="gst3">Click Here to Convert JSON 3B to Excel File</button><br><br>
+    &ensp;<button type="submit" class="save btn2 btn-default" name="gst2a">Click Here to Convert JSON 2A to Excel File</button>&ensp;&ensp;
+    <button type="submit" class="save btn2 btn-default" name="gst2b">Click Here to Convert JSON 2B to Excel File</button>
+  </div>
+</div><br>
+  <center>
+  <h2 class='pop-outin'>If you like this tool, please share it with your friends!</h2>
+  </center>
+
+
+  <div class="sharethis-inline-share-buttons st-center st-has-labels  st-inline-share-buttons st-animated" data-url="https://www.gstauditor.in/" id="st-1"><div class="st-total ">
+<span class="st-label">7.2k</span>
+<span class="st-shares">
+Shares
+</span>
+</div><div class="st-btn st-first" data-network="facebook" style="display: inline-block;">
+<img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+<span class="st-label">Share</span>
+</div><div class="st-btn" data-network="twitter" style="display: inline-block;">
+<img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+<span class="st-label">Tweet</span>
+</div><div class="st-btn" data-network="email" style="display: inline-block;">
+<img alt="email sharing button" src="https://platform-cdn.sharethis.com/img/email.svg">
+<span class="st-label">Email</span>
+</div><div class="st-btn st-remove-label" data-network="whatsapp" style="display: inline-block;">
+<img alt="whatsapp sharing button" src="https://platform-cdn.sharethis.com/img/whatsapp.svg">
+<span class="st-label">Share</span>
+</div><div class="st-btn st-last st-remove-label" data-network="linkedin" style="display: inline-block;">
+<img alt="linkedin sharing button" src="https://platform-cdn.sharethis.com/img/linkedin.svg">
+<span class="st-label">Share</span>
+</div></div>
+<script async="" defer="" type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a30ec0dc754340013cc330c&amp;product=inline-share-buttons"></script>
+</div>
+  <footer> 
+    <marquee>Posted by: CA J Ramajayam    Contact information: <a href="mailto:ram@ramajayam.in">ram@ramajayam.in</a>
+  </footer>
+</body>
+<script>
+  var fileCount = 0;
+
+  var showFileCount = function() {
+    $('#file_count').text('No of Files selected: ' + fileCount).wrapInner("<strong />");
+  };
+
+  showFileCount();
+
+  $(document).on('click', '.close', function() {
+    $(this).parents('span').remove();
+    fileCount -= 1;
+    showFileCount();
+  })
+  $('#id_file').on('change', function() {
+
+    var filename = this.value;
+    var lastIndex = filename.lastIndexOf("\\");
+    if (lastIndex >= 0) {
+      filename = filename.substring(lastIndex + 1);
+    }
+  var files = $('#id_file')[0].files;
+  for (var i = 0; i < files.length; i++) {
+    $("#upload_prev").append('<span>' + '<div class="filenameupload">' + files[i].name + ' abc</div>' + '<p class="close" >X</p></span>');
+  }
+  fileCount += files.length;
+  showFileCount();
+});  
+</script>
+</html>
+

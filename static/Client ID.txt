@@ -1,0 +1,37 @@
+https://medium.com/nerd-for-tech/how-to-deploy-python-django-project-on-aws-ec2-ubuntu-server-5c484fdb8f8c
+1--> ramajayambot@gmail.com
+Client ID : 787284419258-mv2nuqu1vad0q3bjoc5irn3c6318vut2.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 1lnHTBJEZgqsllBlBccs2lyZJaEkblA1O
+Folder Name : Voucher
+
+2--> xcoderamajayam@gmail.com
+Client ID : 816537893029-usioe07bauvttct09esqjbcbr0bq58t5.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 17dECI2R1g4GMqCOHMrxkASZ6XA8xqAMI
+Folder Name : Tally_Data_FY2022-23
+
+3--> solluacc2022@gmail.com
+Client ID : 30468229705-jujcuvh94apgmsr5j9pvotcl11vavb3l.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 1OtpzU195ZqSHGm-ry34rr_aMD1iMwNeJ
+Folder Name : Voucher
+
+4--> livestacc@gmail.com
+Client ID : 1024503379310-56tg2u7ee0c2g50s724b2a9fobmdd5tc.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 1lu1GQ9hAH3ReELLMeKDD2dv3t05lnrXe
+Folder Name : Voucher
+
+5--> client.amuthan@gmail.com
+Client ID : 1034699387763-p7mh6e9brtr14v54l8glbmaksbrlhjhc.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 1ctjUQldBq2L9KRYM6QvSBAgnjqg0xDnI
+Folder Name : Voucher
+
+5--> spaceageacc2022@gmail.com
+Client ID : 703886702266-n7rdkoek0pd337gi41mu875l6f5uel76.apps.googleusercontent.com
+Secret ID : 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
+Folder ID : 111-dDb3eTf9d-kSN-ijUVZFXmQ3Q5K5j
+Folder Name : Voucher
+
