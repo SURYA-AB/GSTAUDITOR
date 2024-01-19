@@ -11,7 +11,7 @@ class TaskForm(forms.ModelForm):
 
 
 class StudentForm(forms.Form):
-    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True})) # for creating file input
+    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'allow_multiple_selected': True})) # for creating file input
 
 class GstForm(ModelForm):
     class Meta:
@@ -19,10 +19,10 @@ class GstForm(ModelForm):
         fields = ['GSTIN']
 
 class FileFieldForm(forms.Form):
-    file_field = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
+    file_field = forms.FileField(widget=forms.ClearableFileInput(attrs={'allow_multiple_selected': True}))
 
 class StudentForm2(forms.Form):
-    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True})) # for creating file input
+    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'allow_multiple_selected': True})) # for creating file input
 
 class StudentForm3(forms.Form):
-    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True})) # for creating file input
+    file      = forms.FileField(widget=forms.ClearableFileInput(attrs={'allow_multiple_selected': True})) # for creating file input
